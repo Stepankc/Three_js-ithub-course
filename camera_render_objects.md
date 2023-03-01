@@ -1,4 +1,5 @@
 # Материалы для чтения
+
 - [документация Threejs](https://threejs.org/docs/index.html#manual/ru/introduction/Creating-a-scene)
 - [книга по threejs](https://discoverthreejs.com/)
 
@@ -267,5 +268,5 @@ camera.lookAt(new THREE.Vector3(0, -1, 0));
 Мы также можем использовать любой существующий Vector3, такой как положение меша, но это приведет к положению камеры по умолчанию, потому что наш меш находится в центре сцены.
 
 ```javascript
-camera.lookAt(mesh.position)
+camera.lookAt(mesh.position);
 ```
