@@ -268,9 +268,5 @@ camera.lookAt(new THREE.Vector3(0, -1, 0));
 Мы также можем использовать любой существующий Vector3, такой как положение меша, но это приведет к положению камеры по умолчанию, потому что наш меш находится в центре сцены.
 
 ```javascript
-<<<<<<< HEAD
 camera.lookAt(mesh.position);
-=======
-camera.lookAt(mesh.position)
->>>>>>> 422e77976638fe6f8d74a11105a4f049bb1c0f8a
 ```
