@@ -53,10 +53,6 @@ gui.add(mesh.position, "y");
 gui.add(mesh.position, "y", -3, 3, 0.01);
 ```
 
-```javascript
-gui.add(mesh.position, "y", -3, 3, 0.01);
-```
-
 Или вы можете использовать методы `min(...)`,`max(...)`и `step(...)` путем объединения в цепочку после метода `add(...)`:
 
 ```javascript
